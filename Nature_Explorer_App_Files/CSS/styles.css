@@ -1,0 +1,401 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, serif;
+    
+}
+
+a {
+  text-decoration: none; /* no underline */
+}
+
+.homeWrapper {
+    background-image: url(../Images/homePage.jpg);
+    background-size: 1600px 900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 2010px;
+}
+
+/* V Helpful Links V */
+
+#helpful-Links a {
+    color: black;
+
+}
+
+.mountainWrapper {
+    background-image: url(../Images/mountains.jpg);
+    background-size: 1612px 1075px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 2010px;
+}
+
+.lakeWrapper {
+    background-image: url(../Images/Lakes.jpg);
+    background-size: 1600px 1052px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 2010px;
+}
+
+.waterfallWrapper {
+    background-image: url(../Images/waterfall5.jpg);
+    background-size: 1433px 1075px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 2010px; 
+}
+
+.caveWrapper {
+    background-image: url(../Images/caves.jpeg);
+    background-size: 1200px 900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 2010px; 
+}
+
+.stateParkWrapper {
+    background-image: url(../Images/State%20Park%20pic.png);
+    background-size: 1200px 900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 2010px; 
+}
+
+
+
+.homeButtonArea {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: .1em;
+    text-align: center;
+    
+}
+
+.homeButtonArea input {
+    border-radius: 1em;
+    width: 14em;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: rgba(0, 0, 0, 0.4);
+    font-weight: 700;
+    font-size: .8em;
+    color: white;
+}
+
+.homeButtonArea h3 {
+    font-size: 2em;
+    color: black;
+    }
+
+/*---------------------------------------------------------------*/
+
+.mountainButtonArea {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: .1em;
+    text-align: center;
+}
+
+.mountainButtonArea input {
+    border-radius: .8em;
+    width: 16.9em;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: 700;
+    font-size: .8em;
+}
+
+.mountainButtonArea h3 {
+    font-size: 2em;
+}
+
+.mountainButtonArea p {
+    font-size: .8em;
+}
+
+.mountainWriteOutArea {
+    width: 38%;
+    height: auto;
+    margin: 1em auto 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-top: .1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    border-radius: 1em;
+    
+}
+
+.mountainWriteOutArea a {
+    margin: 0 auto;
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.mountainWriteOutArea p {
+    margin: 0 auto;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.mountainWriteOutArea h3 {
+    font-size: 1.5em;
+    padding-left: 4em;
+    color: black;
+}
+
+/*---------------------------------------------------------------*/
+
+.lakeButtonArea {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: .1em;
+    text-align: center;
+}
+
+.lakeButtonArea input {
+    border-radius: .8em;
+    width: 16.9em;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 700;
+    font-size: .8em;
+}
+
+.lakeButtonArea h3 {
+    font-size: 2em;
+}
+
+.lakeButtonArea p {
+    font-size: .8em;
+}
+
+.lakesWriteOutArea {
+    width: 32%;
+    height: auto;
+    margin: 1em auto 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-top: .1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    border-radius: 1em;
+    
+}
+
+.lakesWriteOutArea a {
+    margin: 0 auto;
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.lakesWriteOutArea p {
+    margin: 0 auto;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.lakesWriteOutArea h3 {
+    font-size: 1.5em;
+    padding-left: 4em;
+    color: black;
+}
+
+/*---------------------------------------------------------------*/
+
+.fallsButtonArea {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: .1em;
+    text-align: center;
+}
+
+.fallsButtonArea input {
+    border-radius: .8em;
+    width: 16.9em;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+    font-size: .8em;
+    color: #90C2E7;
+}
+
+.fallsButtonArea h3 {
+    font-size: 2em;
+}
+
+.fallsButtonArea p {
+    font-size: .8em;
+}
+
+
+.fallsWriteOutArea {
+    width: 32%;
+    height: auto;
+    margin: 1em auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: .1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    border-radius: 1em;
+    
+}
+
+.fallsWriteOutArea a {
+    margin: 0 auto;
+    color: #90C2E7;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.fallsWriteOutArea p {
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #90C2E7;
+}
+
+.fallsWriteOutArea h3 {
+    font-size: 1.5em;
+    padding-left: 4em;
+    color: #90C2E7;
+}
+
+/*---------------------------------------------------------------*/
+
+.caveButtonArea {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: .1em;
+    text-align: center;
+}
+
+.caveButtonArea input {
+    border-radius: .8em;
+    border-color: black;
+    width: 16.9em;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #E36414;
+    font-weight: 700;
+    font-size: .8em;
+}
+
+.caveButtonArea h3 {
+    font-size: 2em;
+    color: #E36414;
+}
+
+.caveButtonArea p {
+    font-size: .8em;
+}
+
+.caveWriteOutArea {
+    width: 36%;
+    height: auto;
+    margin: 1em auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding-top: .1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    border-radius: 1em;
+    color: #E36414;
+    
+}
+
+.caveWriteOutArea a {
+    margin: 0 auto;
+    color: #E36414;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+
+.caveWriteOutArea p {
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #E36414;
+}
+
+.caveWriteOutArea h3 {
+    font-size: 1.5em;
+    padding-left: 4em;
+    color: #E36414;
+}
+
+
+/*---------------------------------------------------------------*/
+
+
+
+.stateParkButtonArea {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: .1em;
+    text-align: center;
+}
+
+.stateParkButtonArea input {
+    border-radius: .8em;
+    width: 16.9em;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    font-size: .8em;
+}
+
+.stateParkButtonArea h3 {
+    font-size: 2em;
+}
+
+.stateParkButtonArea p {
+    font-size: .8em;
+}
+
+.stateParkWriteOutArea {
+    width: 32%;
+    height: auto;
+    margin: 1em auto 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-top: .1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    border-radius: 1em;
+    
+}
+
+.stateParkWriteOutArea a {
+    margin: 0 auto;
+    color: black;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.stateParkWriteOutArea p {
+    margin: 0 auto;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.stateParkWriteOutArea h3 {
+    font-size: 1.5em;
+    padding-left: 4em;
+    color: black;
+}
+

@@ -1,0 +1,34 @@
+I made a change to the way things are printed to the screen 
+
+It solved the multiple instance problem, 
+but now the function that prints is skipping 
+some locations 
+
+Its because we reduced the array of numbers 
+being sent to the print function
+
+We need a way to make sure nothing gets skipped
+
+To reset, comment out the lines for the reduce functions
+and replace the arguments going into the sort functions
+with the original number arrays
+
+-------------------------------------------------------------
+
+As far as the solution, 
+maybe a different .length of an array would help 
+in the print functions 
+
+or maybe an or statement or an else statement
+
+if something.elevation matches elevations[i], 
+check to see if anything else matches that same elevations[i]
+if so, print that too
+
+-------------------------------------------------------------
+
+NEVERMIND!!! A Pleasant surprize!!!
+
+The Mountains page  - I verifited that all locations are shown!
+The Lakes page      - I verifited that all locations are shown!
+The Waterfalls page - I (have not yet) verifited that all locations are shown!
